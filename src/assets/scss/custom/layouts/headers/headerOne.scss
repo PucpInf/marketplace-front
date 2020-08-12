@@ -1,0 +1,88 @@
+/*------------------------------------------------------------
+  5.1.1 headers
+-----------------------------------------------------------*/
+
+//header one styling
+.iron-header-v1{
+  box-shadow: none !important;
+  background-color:$primary;
+  .iron-header-top{
+    // background-color: rgba(255,255,255,.05); 
+  }
+  .iron-header-bottom{
+    background-color: rgba(255,255,255,.05); 
+    min-height:64px;
+  }
+  .iron-header-menu{
+    li{
+      a{
+        color: $base;
+      }
+    }
+  }
+}
+
+.react-autosuggest__input {
+  box-sizing: border-box;
+  font-size: 1rem !important;
+  line-height: 1;
+  width: 100%;
+  padding: 20px 20px;
+  font-weight: 200;
+  font-size: 14px;
+  border: none !important;
+  title#{&} {
+    display: block !important;
+  }
+}
+
+.ais-Highlight-highlighted{
+  display: inline-block;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  box-sizing: border-box;
+  top: 51px;
+  width: 100%;
+  background-color: #fff;
+  color: #aaa;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  z-index: 2;
+}
+
+.react-autosuggest__section-title {
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
